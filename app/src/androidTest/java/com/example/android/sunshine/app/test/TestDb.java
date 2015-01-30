@@ -109,8 +109,6 @@ public class TestDb extends AndroidTestCase {
             assertEquals(testLocationSetting, location);
             assertEquals(testLatitude, latitude);
             assertEquals(testLongitude, longitude);
-
-            // Fantastic.  Now that we have a location, add some weather!
         } else {
             // That's weird, it works on MY machine...
             fail("No values returned :(");
